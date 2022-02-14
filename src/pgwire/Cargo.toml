@@ -30,5 +30,5 @@ postgres = { git = "https://github.com/MaterializeInc/rust-postgres", branch = "
 tokio = "1.16.1"
 tokio-openssl = "0.6.3"
 tokio-stream = "0.1.8"
-tokio-util = { version = "0.6.9", features = ["codec"] }
+tokio-util = { version = "0.7.0", features = ["codec"] }
 tracing = "0.1.30"
