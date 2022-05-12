@@ -28,7 +28,7 @@ serde_json = "1.0.79"
 sha2 = "0.10.1"
 snap = { version = "1.0.5", optional = true }
 tracing = "0.1.30"
-uuid = "0.8.2"
+uuid = "1.0.0"
 
 [dev-dependencies]
 lazy_static = "1.1.0"
