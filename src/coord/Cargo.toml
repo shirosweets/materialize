@@ -41,7 +41,7 @@ prometheus = { git = "https://github.com/MaterializeInc/rust-prometheus.git", de
 protobuf-native = "0.2.1"
 rand = "0.8.4"
 rdkafka = { git = "https://github.com/fede1024/rust-rdkafka.git", features = ["cmake-build", "libz-static"] }
-regex = "1.5.4"
+regex = "1.5.5"
 rusqlite = { version = "0.26.1", features = ["bundled", "unlock_notify"] }
 semver = "1.0.5"
 serde = "1.0.136"
