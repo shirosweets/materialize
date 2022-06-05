@@ -1260,7 +1260,7 @@ version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f91cf5a8c2f2097e2a32627123508635d47ce10563d999ec1a95addf08b502ba"
 dependencies = [
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -2722,7 +2722,7 @@ dependencies = [
  "tracing",
  "tracing-subscriber",
  "url",
- "uuid",
+ "uuid 1.1.1",
  "walkdir",
 ]
 
@@ -2868,7 +2868,7 @@ dependencies = [
  "tokio-util",
  "twox-hash",
  "url",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -2904,7 +2904,7 @@ dependencies = [
  "subprocess",
  "thiserror",
  "time",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -2928,7 +2928,7 @@ dependencies = [
  "sha2",
  "snap",
  "tracing",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -2979,7 +2979,7 @@ dependencies = [
  "tokio",
  "tokio-postgres",
  "tracing",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3061,7 +3061,7 @@ dependencies = [
  "tracing",
  "uncased",
  "url",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3147,7 +3147,7 @@ dependencies = [
  "tokio-util",
  "tracing",
  "url",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3196,7 +3196,7 @@ dependencies = [
  "tokio",
  "tracing",
  "url",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3257,7 +3257,7 @@ dependencies = [
  "sha-1",
  "sha2",
  "uncased",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3286,7 +3286,7 @@ dependencies = [
  "jsonwebtoken",
  "reqwest",
  "serde",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3347,7 +3347,7 @@ dependencies = [
  "tokio",
  "tracing",
  "url",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3542,7 +3542,7 @@ dependencies = [
  "timely",
  "tokio",
  "tracing",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3576,7 +3576,7 @@ dependencies = [
  "mz-ore",
  "mz-repr",
  "postgres-types",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3707,7 +3707,7 @@ dependencies = [
  "serde_json",
  "serde_regex",
  "smallvec",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3785,7 +3785,7 @@ dependencies = [
  "typemap_rev",
  "uncased",
  "url",
- "uuid",
+ "uuid 1.1.1",
 ]
 
 [[package]]
@@ -3834,7 +3834,7 @@ dependencies = [
  "timely",
  "tokio",
  "tokio-postgres",
- "uuid",
+ "uuid 1.1.1",
  "walkdir",
 ]
 
@@ -3928,7 +3928,7 @@ dependencies = [
  "tokio-stream",
  "tokio-util",
  "url",
- "uuid",
+ "uuid 1.1.1",
  "walkdir",
 ]
 
@@ -4552,7 +4552,7 @@ dependencies = [
  "postgres-protocol",
  "serde",
  "serde_json",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -4843,7 +4843,7 @@ dependencies = [
  "log",
  "percent-encoding",
  "thiserror",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -5548,7 +5548,7 @@ dependencies = [
  "debugid",
  "memmap",
  "stable_deref_trait",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -5725,7 +5725,7 @@ dependencies = [
  "pretty-hex",
  "thiserror",
  "tracing",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -6260,6 +6260,15 @@ name = "uuid"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bc5cf98d8186244414c848017f0e2676b3fcb46807f6668a97dfe67359a3c4b7"
+dependencies = [
+ "getrandom",
+]
+
+[[package]]
+name = "uuid"
+version = "1.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6d5d669b51467dcf7b2f1a796ce0f955f05f01cafda6c19d6e95f730df29238"
 dependencies = [
  "getrandom",
  "serde",
