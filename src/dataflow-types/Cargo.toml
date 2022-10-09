@@ -40,4 +40,4 @@ timely = { git = "https://github.com/TimelyDataflow/timely-dataflow", default-fe
 tokio = "1.16.1"
 tracing = "0.1.30"
 url = { version = "2.2.2", features = ["serde"] }
-uuid = { version = "0.8.2", features = ["serde", "v4"] }
+uuid = { version = "1.2.1", features = ["serde", "v4"] }

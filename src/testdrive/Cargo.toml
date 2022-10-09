@@ -63,7 +63,7 @@ tokio-postgres = { git = "https://github.com/MaterializeInc/rust-postgres", bran
 tokio-stream = "0.1.8"
 tokio-util = { version = "0.6.9", features = ["compat"] }
 url = "2.2.2"
-uuid = "0.8.2"
+uuid = "1.2.1"
 walkdir = "2.3.2"
 
 [dev-dependencies]
