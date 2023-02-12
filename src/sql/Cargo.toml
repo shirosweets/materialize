@@ -45,7 +45,7 @@ tracing = "0.1.30"
 typemap_rev = "0.1.5"
 uncased = "0.9.6"
 url = "2.2.2"
-uuid = { version = "0.8.2", features = ["serde", "v4"] }
+uuid = { version = "1.3.0", features = ["serde", "v4"] }
 
 [dev-dependencies]
 datadriven = "0.6.0"
